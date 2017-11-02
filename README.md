@@ -12,6 +12,13 @@ Forked from [moul/docker-diff][upstream-repo]
 
 Or `brew tap joenyland/docker` and then `brew install docker-diff`
 
+### On Gentoo
+
+```
+layman -o https://raw.githubusercontent.com/JoeNyland/gentoo-overlay/master/repositories.xml -f -a joenyland
+emerge app-emulation/docker-diff
+```
+
 ## Usage
 
 ```
